@@ -9,5 +9,10 @@ document.querySelectorAll("#btn").forEach((button) => {
     } else {
       output.textContent += button.textContent;
     }
+
+    if (output.value.length > 12) {
+      output.textContent = "ErrorErrorError";
+    }
+    return;
   });
 });

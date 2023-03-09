@@ -12,7 +12,7 @@ body {
   align-items: center;
   width: 300px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: rgb(104, 104, 104);
 }
@@ -28,6 +28,7 @@ button {
 
 button:hover {
   background-color: #c5c5c5;
+  cursor: pointer;
 }
 
 .output {
@@ -44,6 +45,7 @@ button:hover {
   background-color: #fff;
   font-size: 2rem;
   font-family: calculator;
+  overflow: hidden;
 }
 
 .numberbuttons {
